@@ -18,10 +18,37 @@
 
 public class ASCIIArt {
 	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+		writing();
+		top();
+		middle();
+		bottom();
+		writing();
+		System.out.println("");
+	}
+	
+	public static void top() {
+		System.out.println("          @@@@@@@@@@@@@@@@@@@@@@       ");
+		System.out.println("         @@@@@@@@@@@@@@@@@@@@@@@@      ");
+		System.out.println("       @@@@@@@@           @@@@@@@@@       ");
+	}
+	
+	public static void middle() {
+		
+		System.out.println("     @@@@@@@@@  @@@@@@@@@  @@@@@@@@@@    ");
+		System.out.println("     @@@@@@@@@  @@@@@@@@@  @@@@@@@@@@    ");
+		System.out.println("     @@@@@@@@@   @@@@@@@   @@@@@@@@@@     ");
+		System.out.println("     @@@@@@@@@   @@@@@@@   @@@@@@@@@@         ");
+		System.out.println("     @@@@@@ @@@   @@@@@   @@@ @@@@@@@        ");
+	}
+	
+	public static void bottom() {
+		System.out.println("     @@@@@  @@  @@@@@@@@  @@  @@@@@@@  ");
+		System.out.println("      @@@@@    @@@@@@@@@@    @@@@@@@         ");
+		System.out.println("        @@@@@@@@@@@@@@@@@@@@@@@@@      ");
+		System.out.println("          @@@@@@@@@@@@@@@@@@@@@@       ");
+	}
+	
+	public static void writing() {
+		System.out.println("\t  \"lululemon athletica\"");
 	}
 }
